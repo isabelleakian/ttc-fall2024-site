@@ -151,8 +151,14 @@ img.Osh {
     border-radius: 4px;
     padding: 3px;
     height: 200px;
-    max-width: 650px
+    max-width: 650px ;
+    transition: transform 0.3s ease-in-out;
 }
+
+img.Osh:hover {
+    transform: scale(1.2);
+}
+
 
 img.icon{
     border: 1px solid #ddd;
@@ -178,6 +184,7 @@ div.imgcontainer{
         display: flex;
         flex-direction: horizontal;
         flex-grow: 1;
+
 }
 
 div.imgcaption{
@@ -188,4 +195,9 @@ div.imgcaption{
 
 img.Robotics{
     width: 250px;
+    transition: transform 0.3s ease-in-out;
+}
+
+img.Robotics:hover {
+    transform: scale(1.5);
 }
