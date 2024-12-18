@@ -60,13 +60,10 @@ main {
 
 
 footer {
-    width: 100%;
     background-color: #FFDD00;
     color: #1F1300;
     text-align: center;
-    padding: 10px;
-    position: absolute;
-    bottom: 0;
+    padding: 20px 0;
 }
 
 img.zhong {
@@ -76,7 +73,8 @@ img.zhong {
     border-width: 8px;
     border-color: #1F1300;
     
-    margin: 20px;
+    margin-left: 25px;
+   margin-top: 25px;
 }
 
 p.text {
@@ -100,3 +98,12 @@ p.text {
     border-radius: 10px;
     transition: transform 0.3s ease-in-out;
 }
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* div.zhong {
+    margin: 20px;
+} */
